@@ -72,10 +72,11 @@
   const ALL_HOURS = 12;
   const ZERO_ANGLE = 90;
 
-  const hands = {
-    hourHand: document.querySelector('.hour-hand'),
-    minHand: document.querySelector('.min-hand'),
-    secondHand: document.querySelector('.second-hand'),
+  const CLOCK = {
+    clock: document.querySelector('.clock'),
+    hourHand: clock.querySelector('.hour-hand'),
+    minHand: clock.querySelector('.min-hand'),
+    secondHand: clock.querySelector('.second-hand')
   };
 
   const setDate = function() {
@@ -83,15 +84,15 @@
 
     const second = now.getSeconds();
     const secondsDeg = (second / ALL_SECONDS) * ALL_DEG;
-    hands.secondHand.style.transform = `rotate(${ZERO_ANGLE + secondsDeg}deg)`;
+    CLOCK.secondHand.style.transform = `rotate(${ZERO_ANGLE + secondsDeg}deg)`;
 
     const min = now.getMinutes();
     const minutesDeg = (min / ALL_MINUTES) * ALL_DEG;
-    hands.minHand.style.transform = `rotate(${ZERO_ANGLE + minutesDeg}deg)`;
+    CLOCK.minHand.style.transform = `rotate(${ZERO_ANGLE + minutesDeg}deg)`;
 
     const hour = now.getHours();
     const hoursDeg = (hour / ALL_HOURS) * ALL_DEG;
-    hands.hourHand.style.transform = `rotate(${ZERO_ANGLE + hoursDeg}deg)`;
+    CLOCK.hourHand.style.transform = `rotate(${ZERO_ANGLE + hoursDeg}deg)`;
   };
 
   setInterval(setDate, 1000);
