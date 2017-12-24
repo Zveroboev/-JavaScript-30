@@ -10,7 +10,7 @@
 04. ~~Day 04 - Array Cardio Day 1~~
 05. ~~Day 05 - Flex Panels Image Gallery~~
 06. ~~Day 06 - Ajax Type Ahead~~
-07. Day 07 - Array Cardio Day 2
+07. ~~Day 07 - Array Cardio Day 2~~
 08. Day 08 - Fun with HTML5 Canvas
 09. Day 09 - 14 Must Know Dev Tools Tricks
 10. Day 10 - Hold Shift to Check Multiple Checkboxes
