@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Hold Shift to Check Multiple Checkboxes</title>
-</head>
-<body>
   <style>
 
     html {
@@ -53,6 +51,9 @@
 
 
   </style>
+</head>
+<body>
+
    <!--
    The following is a common layout you would see in an email client.
 
@@ -99,6 +100,28 @@
   </div>
 
 <script>
+  const checkboxes = Array.from(document.querySelectorAll('.inbox input[type="checkbox"]'));
+  let lastChecked;
+
+  const handleCheck = function (event) {
+    let inBetween = false;
+
+    if(event.shiftKey && this.checked) {
+      checkboxes.forEach(checkbox => {
+        if(checkbox === this || checkbox === lastChecked) {
+          inBetween = !inBetween;
+        }
+
+        if (inBetween) {
+          checkbox.checked = true;
+        }
+      })
+    }
+
+    lastChecked = this;
+  };
+
+  checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
 </script>
 </body>
 </html>
