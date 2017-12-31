@@ -16,6 +16,6 @@
 10. ~~Day 10 - Hold Shift to Check Multiple Checkboxes~~
 11. ~~Day 11 - Custom HTML5 Video Player~~
 12. ~~Day 12 - Key Sequence Detection (KONAMI CODE)~~
-13. Day 13 - Slide In on Scroll
-14. Day 14 - Object and Arrays - Reference VS Copy
+13. ~~Day 13 - Slide In on Scroll~~
+14. ~~Day 14 - Object and Arrays - Reference VS Copy~~
 15. Day 15 - LocalStorage and Event Delegation
