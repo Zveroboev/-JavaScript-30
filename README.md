@@ -19,3 +19,18 @@
 13. ~~Day 13 - Slide In on Scroll~~
 14. ~~Day 14 - Object and Arrays - Reference VS Copy~~
 15. Day 15 - LocalStorage and Event Delegation
+16. Day 16 - CSS Text Shadow Mouse Move Effect
+17. Day 17 - Sorting Band Names without articles
+18. Day 18 - Tally String Times with Reduce
+19. Day 19 - Unreal Webcam Fun
+20. Day 20 - Native Speech Recognition
+21. Day 21 - Geolocation based Speedometer and Compass
+22. Day 22 - Follow Along Links
+23. Day 23 - Speech Synthesis
+24. Day 24 - Sticky Nav
+25. Day 25 - Event Capture, Propagation, Bubbling and Once
+26. Day 26 - Stripe Follow Along Dropdown
+27. Day 27 - Click and Drag to Scroll
+28. Day 28 - Video Speed Controller UI
+29. Day 29 - Countdown Clock
+30. Day 30 - Whack A Mole Game
