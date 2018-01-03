@@ -18,7 +18,7 @@
 12. ~~Day 12 - Key Sequence Detection (KONAMI CODE)~~
 13. ~~Day 13 - Slide In on Scroll~~
 14. ~~Day 14 - Object and Arrays - Reference VS Copy~~
-15. Day 15 - LocalStorage and Event Delegation
+15. ~~Day 15 - LocalStorage and Event Delegation~~
 16. Day 16 - CSS Text Shadow Mouse Move Effect
 17. Day 17 - Sorting Band Names without articles
 18. Day 18 - Tally String Times with Reduce
