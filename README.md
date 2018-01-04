@@ -21,7 +21,7 @@
 15. ~~Day 15 - LocalStorage and Event Delegation~~
 16. ~~Day 16 - CSS Text Shadow Mouse Move Effect~~
 17. ~~Day 17 - Sorting Band Names without articles~~
-18. Day 18 - Tally String Times with Reduce
+18. ~~Day 18 - Tally String Times with Reduce~~
 19. Day 19 - Unreal Webcam Fun
 20. Day 20 - Native Speech Recognition
 21. Day 21 - Geolocation based Speedometer and Compass
