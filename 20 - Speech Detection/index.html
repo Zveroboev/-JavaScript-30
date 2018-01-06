@@ -3,19 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Speech Detection</title>
-</head>
-<body>
-
-  <div class="words" contenteditable>
-  </div>
-
-<script>
-  window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-
-
-</script>
-
-
   <style>
     html {
       font-size: 10px;
@@ -55,6 +42,37 @@
       border-color: transparent #efe4e4;
     }
   </style>
+</head>
+<body>
+  <div class="words" contenteditable>
+  </div>
 
+<script>
+  window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+  const recognition = new SpeechRecognition();
+  recognition.interimResults = true;
+
+  let p = document.createElement('p');
+  const words = document.querySelector('.words');
+  words.appendChild(p);
+
+  recognition.addEventListener('result', evt => {
+    p.textContent = Array.from(evt.results)
+      .map(result => result[0])
+      .map(result => result.transcript)
+      .join('');
+
+
+    if(evt.results[0].isFinal) {
+      p = document.createElement('p');
+      words.appendChild(p);
+    }
+  });
+
+  recognition.addEventListener('end', recognition.start);
+
+  recognition.start();
+</script>
 </body>
 </html>
