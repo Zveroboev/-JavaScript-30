@@ -24,8 +24,8 @@
 18. ~~Day 18 - Tally String Times with Reduce~~
 19. ~~Day 19 - Unreal Webcam Fun~~
 20. ~~Day 20 - Native Speech Recognition~~
-21. Day 21 - Geolocation based Speedometer and Compass
-22. Day 22 - Follow Along Links
+21. ~~Day 21 - Geolocation based Speedometer and Compass~~
+22. ~~Day 22 - Follow Along Links~~
 23. Day 23 - Speech Synthesis
 24. Day 24 - Sticky Nav
 25. Day 25 - Event Capture, Propagation, Bubbling and Once
